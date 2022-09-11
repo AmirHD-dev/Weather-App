@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.glassy {
+		@apply bg-[rgba(255,255,255,.3)] shadow-[0_0_30px_1px_rgba(0,175,167,.25)_inset];
+	}
+}
